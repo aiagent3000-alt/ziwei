@@ -197,13 +197,13 @@ button{font:inherit}
 .price h3{margin:14px 0 0;font-family:var(--serif);font-size:28px}
 .price .desc{margin-top:6px;color:#75695f;font-size:13px}
 .price.featured .desc{color:#a89d90}
-.price-old{margin-top:23px;color:#988d82;font-family:var(--display);font-size:22px;text-decoration:line-through}
+.price-old{margin-top:23px;color:#988d82;font-family:var(--display);font-size:32px;text-decoration:line-through}
 .price-now{margin-top:1px;font-family:var(--display);font-size:58px;line-height:1;color:#75582e}
 .price.featured .price-now{color:var(--gold-soft)}
 .price-unit{color:#8d8176;font-size:12px}
 .price-tiers{margin:12px 0 0;color:#61564d;font-size:13px;line-height:1.8}
-.price-new{margin:6px 0 0;color:#8d6c39;font-size:13px;font-weight:700}
-.price.featured .price-tiers{color:#cabfb1}
+.price-new{margin:10px 0 0;color:#8d6c39;font-size:18px;font-weight:700}
+.price.featured .price-new{color:var(--gold)}
 .price ul{margin:24px 0 28px;padding:18px 0 0;border-top:1px solid rgba(33,27,23,.14);list-style:none}
 .price.featured ul{border-top-color:rgba(239,232,220,.12)}
 .price li{position:relative;padding:8px 0 8px 21px;color:#61564d;font-size:13px}
@@ -238,7 +238,7 @@ details p{padding:0 46px 24px 0;margin:0;color:var(--muted);font-size:14px}
 .cta .shell{position:relative;z-index:1}
 .cta .eyebrow{justify-content:center;color:#8d6c39}
 .cta .eyebrow:before{background:#8d6c39}
-.cta h2{margin:17px auto 0;max-width:720px;font-family:var(--serif);font-size:clamp(38px,5vw,65px);line-height:1.2}
+.cta h2{margin:17px auto 0;max-width:min(940px,100%);font-family:var(--serif);font-size:clamp(38px,5vw,65px);line-height:1.2}
 .cta p{margin:16px auto 0;max-width:580px;color:#6e6359}
 .cta .btn{margin-top:30px}
 .footer{background:#0f0c0a;color:#82766a;padding:45px 0 60px;font-size:12px}
@@ -454,8 +454,8 @@ details p{padding:0 46px 24px 0;margin:0;color:var(--muted);font-size:14px}
     <div class="shell">
       <div class="price-intro fade"><div class="eyebrow">課程方案</div><h2>找到適合你的學習方式</h2><p>從團體班開始，到完整一年、再到一對一弟子班，把不同深度的學習需求都放進來。</p></div>
       <div class="price-grid fade">
-        <article class="price"><span class="label">GROUP</span><h3>團體班</h3><p class="desc">2–4 人・滿 2 人開班</p><div class="price-now">$25,000</div><div class="price-unit">每人／每期</div><p class="price-tiers">3 人班每人 $24,000<br>4 人班每人 $23,000</p><p class="price-new">新生第一期 9 折</p><ul><li>每期 3 個月・12 堂・每堂 3 小時</li><li>線上直播</li><li>送經典紅皮書講義</li><li>學員群組隨時發問</li></ul><a class="btn">報名團體班</a></article>
-        <article class="price featured"><span class="label">GROUP · 1 YEAR</span><h3>團體班一年方案</h3><p class="desc">四期一次繳・享 95 折</p><div class="price-old">$100,000</div><div class="price-now">$95,000</div><div class="price-unit">每人／一年</div><p class="price-tiers">3 人班每人 $91,200<br>4 人班每人 $87,400</p><ul><li>四期・每期 12 堂・每堂 3 小時</li><li>線上直播</li><li>送經典紅皮書講義</li><li>學員群組隨時發問</li></ul><a class="btn">報名團體班一年方案</a></article>
+        <article class="price"><span class="label">GROUP</span><h3>團體班</h3><p class="desc">2–4 人・滿 2 人開班</p><div class="price-now">$25,000</div><div class="price-unit">每人／每期</div><p class="price-new">新生第一期 9 折</p><ul><li>每期 3 個月・12 堂・每堂 3 小時</li><li>線上直播</li><li>送經典紅皮書講義</li><li>學員群組隨時發問</li></ul><a class="btn">報名團體班</a></article>
+        <article class="price featured"><span class="label">GROUP · 1 YEAR</span><h3>團體班一年方案</h3><p class="desc">四期一次繳（一年）</p><div class="price-old">$100,000</div><div class="price-now">$95,000</div><div class="price-unit">每人／一年</div><p class="price-new">年繳，享 95 折</p><ul><li>四期・每期 12 堂・每堂 3 小時</li><li>線上直播</li><li>送經典紅皮書講義</li><li>學員群組隨時發問</li></ul><a class="btn">報名團體班一年方案</a></article>
         <article class="price"><span class="label">1-ON-1 · DISCIPLE</span><h3>弟子班</h3><p class="desc">一對一・四期一次報名（一年）</p><div class="price-old">$140,000</div><div class="price-now">$120,000</div><div class="price-unit">一年</div><ul><li>畢業後可獲得北派入室弟子證書</li><li>3 個月命理創業陪跑諮詢（例：社群經營、網站設計、銷售流程設計、行銷工具等）</li><li>送奇門遁甲單宮斷線上課程（原價 $8,800）</li></ul><a class="btn">報名弟子班</a></article>
       </div>
       <p class="price-note fade">新生第一期 9 折不適用弟子班。</p>
